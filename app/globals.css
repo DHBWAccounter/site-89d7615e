@@ -1,0 +1,96 @@
+@import url('https://use.typekit.net/ik/61-q0FawBJ10LE9c7WJXwmV6_eb6Y9YthFT-bCD9Fw6fentgfFHN4UJLFRbh52jhWD9t5QmqFR4qwRqoFeFy52ZKweFq5Q63FUGMJ6U3ScNt-AuyOAozicIKIcBqdh48OAiyScBldhoqOWgkdkG4f5J7IMMjMkMfH6qJn3IbMg6IJMJ7fbKlMsMMeMj6MKG4fJCgIMMjgkMfH6qJn6IbMg6bJMJ7fbKwMsMMegI6MKG4fVwXIMIjgfMfH6qJv2bbMs6YJMJ7fbRkFgMgeMt6MKG4fVIXIMIjIPMfqMYS7vPog6.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 31, 31, 31;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  font-family: "proxima-nova", system-ui, sans-serif;
+}
+
+/* Custom styles for the website */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "adobe-garamond-pro", Georgia, serif;
+}
+
+/* Navigation styles */
+.nav-link {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Hero banner text */
+.hero-text {
+  font-family: "proxima-nova", system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Mission section */
+.mission-text {
+  font-family: "adobe-garamond-pro", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Card titles */
+.card-title {
+  font-family: "proxima-nova", system-ui, sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Link styles */
+.primary-link {
+  color: #3D9991;
+  text-decoration: none;
+}
+
+.primary-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+.footer-link {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Social icon styles */
+.social-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: #333;
+}
